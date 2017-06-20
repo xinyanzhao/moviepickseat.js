@@ -1,0 +1,28 @@
+<div class="container">
+    <div style="margin-bottom: 20px;font-size: 18px;">您已成功预定 :{{data.movie}}</div>
+    <p>选中座位号: <span ng-repeat="seat in data.seats" style="margin-right: 5px">{{seat}},</span></p>
+    <div class="pick-item">
+        <div class="pick-label">
+            <label>姓名:</label>
+            <span>{{data.name}}</span>
+        </div>
+    </div>
+    <div class="pick-item">
+        <div class="pick-label">
+            <label>性别:</label>
+            <span>{{data.gender}}</span>
+        </div>
+    </div>
+    <div class="pick-item">
+        <div class="pick-label">
+            <label>手机号:</label>
+            <span>{{data.tel}}</span>
+        </div>
+    </div>
+    <div class="pick-item">
+        <div class="pick-label">
+            <label>邮箱:</label>
+            <span>{{data.email}}</span>
+        </div>
+    </div>
+</div>

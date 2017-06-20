@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Seat Reservation System using AngularJS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/pickSeat.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="seatReservationApp">
+
+<header>电影选座</header>
+<div>
+    <div ng-view></div>
+</div>
+
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="controller/pickSeat-ctrl.js"></script>
+<script src="controller/home-ctrl.js"></script>
+<script src="controller/finish-ctrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<ul style="margin-top: 5%;">
+    <li class="list-box" ng-repeat="list in lists">
+        <img ng-src="{{list.movie}}">
+        <span>{{list.name}}</span>
+        <button ng-click="pickSeat(list)">选座订票</button>
+    </li>
+</ul>
